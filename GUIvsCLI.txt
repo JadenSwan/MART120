@@ -1,0 +1,3 @@
+The GUI is how the average person interacts with the operating system on their computer, with very easy-to-understand pictures and images,
+like instalation wizards and scroll bars. The CLI is the more difficult way to interact with the OS, but its a direct linkt to the OS.
+This is done by the user putting in lines of code for the OS to respond to.
