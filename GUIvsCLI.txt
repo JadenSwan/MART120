@@ -1,3 +1,7 @@
 The GUI is how the average person interacts with the operating system on their computer, with very easy-to-understand pictures and images,
-like instalation wizards and scroll bars. The CLI is the more difficult way to interact with the OS, but its a direct linkt to the OS.
-This is done by the user putting in lines of code for the OS to respond to.
+like instalation wizards and scroll bars. It does consume more memory however, since the computer has to remember all of these items 
+(pictures, scrollbars, etc.)The CLI is the more difficult way to interact with the OS, but its a direct link to the OS. This is done by the
+user putting in lines of code for the OS to respond to. The CLI is the way that programmers interact with the OS, since it offers a direct 
+link to the OS and gives more power and access to the programmer. It also consumes way less memory, since the computer doesnt have to store 
+the files for the scrollbars, wizards, and other things that it does on the GUI. For imput, the GUI lets you enter the imputs anywhere on screen, 
+while the CLI requires you to input it into the command screen.
