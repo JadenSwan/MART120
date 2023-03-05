@@ -3,5 +3,13 @@ span {
 }
 .lessimportantstuff{
     color:gray;
-    font: Arial;
+    font-family: Arial;
+}
+#list{
+    color: gray;
+    font-family:Arial ;
+}
+#agreement{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: darkslategrey;
 }
