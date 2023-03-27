@@ -1,0 +1,83 @@
+function setup()
+{
+    createCanvas(500, 500);
+}
+
+function draw()
+{
+    background(12,80,12);
+  //hair
+  strokeWeight(5)
+  fill(255,171,0)
+  rect(150,150,100,200)
+  
+  // noggin
+  strokeWeight(5)
+  fill(243,212,149);
+  circle(200,200,100);
+  
+  //eyes
+  strokeWeight(10)
+  point(180,200);
+  point(220,200)
+  
+  //mouth
+  strokeWeight(5)
+  line(185,225,205,225)
+  line(205,225,215,220)
+  
+  
+  //body
+  strokeWeight(5)
+  fill(255,154,229);
+  rect(150,270,100,200);
+  
+  //sidehair
+  fill(255,171,0)
+  rect(140,160,25,150)
+  rect(235,160,25,150)
+  rect(170,140,60,30)
+  
+  //leftarm
+  strokeWeight(5)
+  fill(243,212,149);
+  rect(100,280,40,120);
+  //leftarmshirt
+  fill(255,154,229);
+  square(100,280,40);
+  
+  //rightarm
+  fill(243,212,149);
+  rect(260,280,40,120);
+  //rightarmshirt
+  fill(255,154,229);
+  square(260,280,40);
+  
+  //leftleg
+  fill(59,37,121);
+  rect(150,480,50,50);
+  
+  //rightleg
+  fill(59,37,121);
+  rect(200,480,50,50);
+  
+  
+  //flower
+  strokeWeight(1)
+    fill(255,171,0);
+  circle(200,335,30)
+  
+  //flowerpetals
+  fill(0, 126, 167)
+  circle(180,335,30)
+  circle(220,335,30)
+  circle(200,355,30)
+  circle(200,315,30)
+  
+  
+  
+  
+  textSize(18);
+  fill(255,171,0);
+  text("Jaden Swan, 2023",300,450);
+}
