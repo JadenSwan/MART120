@@ -52,6 +52,10 @@ function draw()
   //rightarmshirt
   fill(255,154,229);
   square(260,280,40);
+  //patch
+  fill(255,103,204)
+  strokeWeight(2)
+  triangle(270,290,280,310,290,290)
   
   //leftleg
   fill(59,37,121);
