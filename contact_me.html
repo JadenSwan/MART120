@@ -1,0 +1,39 @@
+<h1>Contact Me!</h1>
+<title>Contact Me</title>
+<form action="contact_me.html" type="Post">
+    <span></span>  Name: <input type="text" id="Name"><br>
+    <span ></span> Email Address: <input type="text" id="Email"><br>
+    
+</form>
+<body>
+    <button type="button" onclick='checkboxes();'>Submit</button> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+ <script>
+    function checkboxes() 
+    {
+        var emailAd = document.getElementById("Email"). value;
+        if (emailAd == "")
+        {document.getElementById("Email").style.backgroundColor = "red";
+        document.getElementById("Email").focus();
+        }
+
+        var firstName = document.getElementById("Name").value;
+        if(firstName == "")
+        { document.getElementById("Name").style.backgroundColor = "red";
+        document.getElementById("Name").focus();
+        }
+
+        var noSignature = document.getElementById("agreement")
+        if(document.getElementById("noagreement").checked == true)
+         {   
+           window.alert("Please say yes to the terms of agreement");    
+    }  
+     
+    }
+ </script>
+ <a href="Final_Project.html">Back to Home Page</a>
+</body>
+</html>

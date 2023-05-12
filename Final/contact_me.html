@@ -1,0 +1,68 @@
+<h1>Contact Me!</h1>
+<title>Contact Me</title>
+<form action="contact_me.html" type="Post">
+    <span></span>  Name: <input type="text" id="Name"><br>
+    <span ></span> Email Address: <input type="text" id="Email"><br>
+</form>
+<form action="contact_me.html" type="Post"
+    <table>
+        <tr>
+            <td>
+                Favorite Faction
+            </td>
+            <td>
+                <select>
+                    <option value="Adeptus Custodes">Adepus Custodes</option>
+                    <option value="Adeptus Mechanicus">Adeptus Mechanicus</option>
+                    <option value="Adeptus Sororitas">Adeptus Sororitas</option>
+                    <option value="Aeldari">Aeldari</option>
+                    <option value="Astra Militarum">Astra Militarum</option>
+                    <option value="Black Templars">Black Templars</option>
+                    <option value="Blood Angels">Blood Angels</option>
+                    <option value="Chaos Daemons">Chaos Daemons</option>
+                    <option value="Chaos Knights">Chaos Knights</option>
+                    <option value="Chaos Space Marines"> Chaos Space Marines</option>
+                    <option value="Dark Angels">Dark Angels</option>
+                    <option value="Death Guard">Death Guard</option>
+                    <option value="Deathwatch">Deathwatch</option>
+                    <option value="Drukari">Drukari</option>
+                    <option value="Genestealer Cults">Genestealer Cults</option>
+                    <option value="Grey Knights">Grey Knights</option>
+                    <option value="Imperial Knights">Imperial Knights</option>
+                    <option value="Leagues of Votann">Leagues of Votann</option>
+                    <option value="Orks">Orks</option>
+                    <option value="Space Marines">Space Marines</option>
+                    <option value="Space Wolves">Space Wolves</option>
+                    <option value="T'au Empire">T'au Empire</option>
+                    <option value="Thousand Sons">Thousand Sons</option>
+                    <option value="Tyranids">Tyranids</option>
+                    <option value="World Eaters">World Eaters</option>
+                </select>
+            </td>
+        </tr>
+    </table>
+<body>
+    <button type="button" onclick='checkboxes();'>Submit</button> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+ <script>
+    function checkboxes() 
+    {
+        var emailAd = document.getElementById("Email"). value;
+        if (emailAd == "")
+        {document.getElementById("Email").style.backgroundColor = "red";
+        document.getElementById("Email").focus();
+        }
+
+        var firstName = document.getElementById("Name").value;
+        if(firstName == "")
+        { document.getElementById("Name").style.backgroundColor = "red";
+        document.getElementById("Name").focus();
+        }
+    }
+ </script>
+ <a href="Final_Project.html"> Back to Home Page</a>
+</body>
+</html>
